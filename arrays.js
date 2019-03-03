@@ -11,8 +11,7 @@ return newArray
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
 
-array[0] = element
-
+array.unshift("element")
 }
 
 
