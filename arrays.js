@@ -3,8 +3,8 @@ var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
 
 function addElementToBeginningOfArray(element, array) {
 
-const moreCandy = [element, ...array]
-return moreCandy
+const newArray = [element, ...array]
+return newArray
 
 
 }
