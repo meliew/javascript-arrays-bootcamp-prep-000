@@ -7,8 +7,8 @@ return array
 
 }
 
-function destructivelyAddElementToBeginningOfArray(array, elememt) {
+function destructivelyAddElementToBeginningOfArray(array, element) {
   array[1](element)
   return array
-    
+
 }
