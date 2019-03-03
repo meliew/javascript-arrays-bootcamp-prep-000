@@ -7,7 +7,6 @@ const newArray = [element, ...array]
 return newArray
 return array
 
-
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
@@ -33,7 +32,7 @@ function destructivelyAddElementToEndOfArray(array, element) {
 }
 
 function accessElementInArray(array, index) {
-  console.log(array[index])
+  return (array[index])
 
 
 }
@@ -42,10 +41,8 @@ function removeElementFromBeginningOfArray(array) {
 
   return array.slice(1)
 
-
-
-
 }
+
 function destructivelyRemoveElementFromBeginningOfArray(array, element) {
 
   array.shift(element)
