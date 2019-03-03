@@ -5,4 +5,3 @@ function addElementToBeginningOfArray(new, chocolateBars) {
   newBars = ["baby ruth" ...chocolateBars]
   return newBars
 }
-
