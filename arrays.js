@@ -6,4 +6,3 @@ function addElementToBeginningofArray(chocolateBars, candy) {
   return [candy, ...chocolateBars];
 
 }
-
