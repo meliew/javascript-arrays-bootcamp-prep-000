@@ -9,7 +9,7 @@ return array
 addElementToBeginningOfArray(chocolateBars, "baby ruth");
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  array[1](element)
+  array[0](element)
   return array
 
 }
