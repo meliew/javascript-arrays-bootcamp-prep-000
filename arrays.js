@@ -14,9 +14,11 @@ array.unshift("element")
 }
 
 
-function addElementToEndOfArray(array,element) {
+function addElementToEndOfArray(array,'foo') {
 
-
+const array = [1]
+array1 = array.unshift('foo')
+return array1
 
 }
 
