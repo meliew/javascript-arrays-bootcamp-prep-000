@@ -5,6 +5,7 @@ function addElementToBeginningOfArray(element, array) {
 
 const newArray = [element, ...array]
 return newArray
+return array
 
 
 }
